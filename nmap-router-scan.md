@@ -15,4 +15,4 @@ Lessons Learned:
 - Gained hands-on experience using Nmap.
 - Learned to interpret port states (open, filtered).
 - Identified key services running on local network devices.
-![Screenshot of Nmap scan]images/nmap-router-scan.png
+![Screenshot of Nmap scan](images/nmap-router-scan.png)
