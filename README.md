@@ -2,7 +2,7 @@ Project 2: Nmap Full Port Scan on Localhost (127.0.0.1)
 Objective: To perform a full TCP port scan and service version detection on my own laptop (localhost)
 Scan details: 127.0.0.1 (Local host)
 Command used: nmap -sV -p- 127.0.0.1
-View screenshot:![localhost_scan](./Screenshot 2025-06-15 074401.png)
+View screenshot:![localhost_scan](Screenshot%202025-06-15%20074401.png)
 Result summary: Host is up
 Open Ports & Services Detected:
 135/tcp – Microsoft Windows RPC
