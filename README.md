@@ -3,6 +3,7 @@ Objective: To perform a full TCP port scan and service version detection on my o
 Scan details: 127.0.0.1 (Local host)
 Command used: nmap -sV -p- 127.0.0.1
 View screenshot:![localhost_scan](Screenshot%202025-06-15%20074401.png)
+
 Result summary: Host is up
 Open Ports & Services Detected:
 135/tcp – Microsoft Windows RPC
