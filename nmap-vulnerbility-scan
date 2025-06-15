@@ -1,1 +1,20 @@
-
+Command used: nmap -sV --script vuln 192.168.18.47
+Target:
+Local machine (IP: 192.168.18.47)
+Results Summary:
+Open Ports:
+135/tcp - Microsoft RPC
+139/tcp - NetBIOS-ssn
+445/tcp - microsoft-ds?
+902/tcp - VMware Authentication Daemon 1.10 (VNC, SOAP)
+912/tcp - VMware Authentication Daemon 1.0
+Vulnerabilities Detected / Attempted:
+_smb-vuln-ms10-061 → Failed to receive response (not exploitable / protected)
+_samba-vuln-cve-2012-1182 → Failed to receive response (not exploitable / protected)
+_smb-vuln-ms10-054 → Result: false (safe)
+Interpretation:
+This scan tested for known Windows and Samba vulnerabilities. While some SMB checks failed (likely due to firewall or OS protection), this still shows:
+I've had real services running
+Nmap correctly identified them
+I've tested for real CVEs using industry tools
+Screenshot: 
